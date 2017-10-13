@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""A simple file that reads a json file and prett prints the output."""
+"""A simple file that reads a json file and pretty prints the output."""
 
 
 from tkinter import Tk, filedialog
