@@ -43,10 +43,11 @@ def move_files(source):
 # Get date and format into useable variables year and month
 d = date.today()
 year = str(d.year)
+
 # loop this to check for l or t
-answer = input(r,"Move (l)ast month's pictures or (t)his month's? ")
+answer = input("Move (l)ast month's pictures or (t)his month's? ")
 if answer == 'l':
-    month = '%02d' % d.month - 1
+    month = '%02d' % (d.month - 1)
 else:
     month = '%02d' % d.month    
 
